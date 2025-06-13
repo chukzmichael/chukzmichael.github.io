@@ -16,6 +16,16 @@
       min-height: 100vh;
     }
 
+    .phone .email {
+      "cursor: pointer;
+    }
+    
+    function copyToClipboard(){
+      navigator.clipboard.writeText(text).then(() => {
+        alert(text)
+      })
+    }
+    
     .container {
       background-color:#252b2e;
       border-radius: 10px;
@@ -76,8 +86,8 @@
     <div class="info">
       <p><strong>Name:</strong> NDUBUISI Chukwuemeka Michael</p>
       <p><strong>Sex:</strong> Male</p>
-      <p><strong>Email:</strong> chukzmichael@gmail.com</p>
-      <p><strong>Phone Number:</strong> +234-813-120-5054</p>
+      <p class="email" onclick="copyToClipboard('chukzmichael@gmail.com')"><strong>Email:</strong> chukzmichael@gmail.com</p>
+      <p class="phone" onclick="copyToClipboard('+2348131206054')"><strong>Phone Number:</strong> +234-813-120-5054</p>
       <p><strong>Country:</strong> Nigeria</p>
       <p><strong>Skill:</strong> Automation Expert</p>
       <p><strong>Description:</strong> Proficient in Low code/No code automations with a touch of expertise that turns all manual processes into smart systems.</p>
