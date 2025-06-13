@@ -16,16 +16,10 @@
       min-height: 100vh;
     }
 
-    .class="copy-text" {
+    .copy-text {
       "cursor: pointer;
     }
-    
-    function copyToClipboard(text){
-      navigator.clipboard.writeText(text).then(() => {
-        alert(text)
-      })
-    }
-    
+        
     .container {
       background-color:#252b2e;
       border-radius: 10px;
@@ -78,6 +72,13 @@
       color: #3b82f6;
     }
   </style>
+  <script>
+    function copyToClipboard(text){
+      navigator.clipboard.writeText(text).then(() => {
+        alert(text);
+      })
+    }
+  </script>
 </head>
 <body>
   <div class="container">
