@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NC Michael - Automation Expert</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #e0e7ef; /* bluish-grey background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 40px;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .container img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #3b82f6;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #3b3b3b;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      text-align: left;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .info strong {
+      color: #3b82f6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="your-image.jpg" alt="NC Michael">
+    <h2>My Personal Information</h2>
+    <div class="info">
+      <p><strong>Name:</strong> NC Michael</p>
+      <p><strong>Sex:</strong> Male</p>
+      <p><strong>Country:</strong> Nigeria</p>
+      <p><strong>Skill:</strong> Automation Expert</p>
+      <p><strong>Description:</strong> Proficient in Low code/No code automations with a touch of expertise that turns all manual processes into smart systems.</p>
+      <p><strong>Tools:</strong> Make.com, Zapier, Airtable, Spreadsheet, etc.</p>
+    </div>
+  </div>
+</body>
+</html>
